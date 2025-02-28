@@ -1,0 +1,199 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1650px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position:fixed;
+    top:0px;
+    left: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+ display: flex;
+ justify-content: space-evenly;
+ /* margin-right:10px; */
+} 
+nav ul li{
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+nav ul li:hover{
+ border-bottom: 2px solid orangered;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main h2{
+    /* margin-left: 20px; */
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .cloth{
+    display: flex;
+    margin-top: 10px;
+}
+.main .cloth span{
+ 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: orangered;
+}
+body{
+    background-image:   url("/image/new img.avif");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+background-size: 1600px 800px;
+  
+}
+#text h3{
+     color: orangered;
+     font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#text h2{
+     color: white;
+     font-size: 60px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#text{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:300px;
+}
+.product{
+    margin-top:450px;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+.product .product1 img{
+     width:250px;
+     height: 250px;
+    
+}
+.product .product2 img{
+     width:250px;
+     height: 250px;
+    
+}
+
+.product .product2{
+    margin: 15px;
+}
+.product1{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr)); /* Default for small screens */
+      }
+      
+      @media (min-width: 1024px) { /* lg breakpoint in Tailwind */
+        .product1 {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    /* display: flex;  
+    flex-direction: row; 
+    
+    margin-left: 200px; */
+    /* margin: 15px; */
+
+}
+.product  #dress1{
+    margin: 25px;
+    color: black;
+}
+.product  #dress2{
+    margin: 25px;
+    color: black;
+}
+.product  #dress3{
+    margin: 25px;
+    color: black;
+}
+.product  #dress4{
+    margin: 25px;
+    color: black;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+}
+.sub button{
+    width: 105px;
+    background-color: orangered;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size:18px;
+    padding: 2px;
+    margin-right:70px;
+    box-sizing:border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sub p{
+    font-size: 20px;
+}
+.product .product2{
+    display: flex;
+
+}
+.product2 .dress{
+    margin:black;
+    color: black;
+}
+.product2 #sec1{
+    margin: 25px;
+    color: black;
+}
+.product2 #sec2{
+    margin: 25px;
+    color: black;
+}
+.product2 #sec3{
+    margin: 25px;
+    color: black;
+}
+.product2 #sec4{
+    margin: 25px;
+    color: black;
+}
+ .product .product2{
+    margin-left: 200px;
+}  
+.latest h1{
+    font-size: 25px;
+    color: black;
+}
+.foot-sec img{
+    width:450px;
+    height: 500px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    margin:100px;
+}
+.about h2{
+    color: orangered;
+}
+.log{
+    margin-top: 60px;
+    margin-left:1300px;
+}
+.log a{
+    color:white;
+}
+

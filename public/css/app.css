@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 70px;
+    padding-left:40px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main input{
+    width:300px;
+    margin: 10px;
+    height: 25px;
+}
+body{
+    background-color: rgb(172, 167, 167);
+}
+.main button{
+    width: 150px;
+}
